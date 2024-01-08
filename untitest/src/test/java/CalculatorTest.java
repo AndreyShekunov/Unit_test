@@ -68,4 +68,9 @@ public class CalculatorTest {
         System.out.println(testedValue);
         System.setIn(inputStream);
     }
+
+    @Test
+    void computeCircleRadiusWorksCorrectly() {
+        assertThat(Calculator.computeAreaCircle(10)).isEqualTo(314.1592653589793);
+    }
 }

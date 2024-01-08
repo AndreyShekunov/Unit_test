@@ -62,4 +62,7 @@ public class Calculator {
         return result;
 
     }
+    public static double computeAreaCircle(double radius) {
+        return Math.PI * Math.pow(radius, 2);
+    }
 }
